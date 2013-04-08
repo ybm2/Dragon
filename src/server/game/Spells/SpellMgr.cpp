@@ -2837,6 +2837,9 @@ void SpellMgr::LoadSpellCustomAttr()
             case 58563: // Assassinate Restless Lookout
                 spellInfo->AttributesCu |= SPELL_ATTR0_CU_REQ_CASTER_BEHIND_TARGET;
                 break;
+            case 24259: // Spell Lock silence
++                spellInfo->speed = 80;
++                break;
             case 26029: // Dark Glare
             case 37433: // Spout
             case 43140: // Flame Breath
